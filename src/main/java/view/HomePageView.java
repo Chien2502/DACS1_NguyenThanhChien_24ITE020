@@ -109,7 +109,7 @@ public class HomePageView extends JPanel {
 
         // Thêm hình nền
         lblNewLabel = new JLabel();
-        lblNewLabel.setIcon(new ImageIcon("D:\\picture\\dormitory apps\\bgr for homepage.png"));
+        lblNewLabel.setIcon(new ImageIcon("src\\\\main\\\\java\\\\dormitory apps\\bgr for homepage.png"));
         lblNewLabel.setBounds(10, 11, 770, 518);
         add(lblNewLabel);
     }

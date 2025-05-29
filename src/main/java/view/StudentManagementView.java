@@ -96,7 +96,7 @@ public class StudentManagementView extends JPanel {
 	    addPanel.setBackground(SystemColor.inactiveCaption);
 	    addPanel.setBounds(630, 10, 113, 23);
 	    btnAdd = new JButton("Add");
-	    btnAdd.setIcon(new ImageIcon("D:\\picture\\dormitory apps\\add icon.png"));
+	    btnAdd.setIcon(new ImageIcon("src\\\\main\\\\java\\\\dormitory apps\\add icon.png"));
 	    btnAdd.setFont(new Font("Tahoma", Font.PLAIN, 15));
 	    btnAdd.setBackground(SystemColor.activeCaption);
 	    btnAdd.setBounds(0, 0, 113, 23);
@@ -106,7 +106,7 @@ public class StudentManagementView extends JPanel {
 	    editPanel.setBackground(SystemColor.inactiveCaption);
 	    editPanel.setBounds(630, 50, 113, 23);
 	    btnEdit = new JButton("Edit");
-	    btnEdit.setIcon(new ImageIcon("D:\\picture\\dormitory apps\\edit.png"));
+	    btnEdit.setIcon(new ImageIcon("src\\\\main\\\\java\\\\dormitory apps\\edit.png"));
 	    btnEdit.setFont(new Font("Tahoma", Font.PLAIN, 15));
 	    btnEdit.setBackground(SystemColor.activeCaption);
 	    btnEdit.setBounds(0, 0, 113, 23);
@@ -116,7 +116,7 @@ public class StudentManagementView extends JPanel {
 	    deletePanel.setBackground(SystemColor.inactiveCaption);
 	    deletePanel.setBounds(630, 90, 113, 23);
 	    btnDelete = new JButton("Delete");
-	    btnDelete.setIcon(new ImageIcon("D:\\picture\\dormitory apps\\Delete.png"));
+	    btnDelete.setIcon(new ImageIcon("src\\\\main\\\\java\\\\dormitory apps\\Delete.png"));
 	    btnDelete.setFont(new Font("Tahoma", Font.PLAIN, 15));
 	    btnDelete.setBackground(SystemColor.activeCaption);
 	    deletePanel.add(btnDelete);
@@ -126,7 +126,7 @@ public class StudentManagementView extends JPanel {
 	    searchPanel.setBackground(SystemColor.inactiveCaption);
 	    searchPanel.setBounds(630, 130, 113, 23);
 	    searchButton = new JButton("Search");
-	    searchButton.setIcon(new ImageIcon("D:\\picture\\dormitory apps\\Search.png"));
+	    searchButton.setIcon(new ImageIcon("src\\\\main\\\\java\\\\dormitory apps\\Search.png"));
 	    searchButton.setFont(new Font("Tahoma", Font.PLAIN, 15));
 	    searchButton.setBackground(SystemColor.activeCaption);
 	    searchButton.setBounds(0, 0, 113, 23);
@@ -136,7 +136,7 @@ public class StudentManagementView extends JPanel {
 	    refreshPanel.setBackground(SystemColor.inactiveCaption);
 	    refreshPanel.setBounds(630, 170, 113, 23);
 	    btnRefresh = new JButton("Refresh table");
-	    btnRefresh.setIcon(new ImageIcon("D:\\picture\\dormitory apps\\refresh.png"));
+	    btnRefresh.setIcon(new ImageIcon("src\\\\main\\\\java\\\\dormitory apps\\refresh.png"));
 	    btnRefresh.setFont(new Font("Tahoma", Font.PLAIN, 15));
 	    btnRefresh.setBackground(SystemColor.activeCaption);
 	    btnRefresh.setBounds(0, 0, 113, 23);
@@ -146,7 +146,7 @@ public class StudentManagementView extends JPanel {
 	    panelExport.setLayout(null);
 	    panelExport.setBounds(630, 210, 113, 23);
 	    btnExportPDF = new JButton("Export PDF");
-	    btnExportPDF.setIcon(new ImageIcon("D:\\picture\\dormitory apps\\pdf-icon.png")); 
+	    btnExportPDF.setIcon(new ImageIcon("src\\\\main\\\\java\\\\dormitory apps\\pdf-icon.png")); 
 	    btnExportPDF.setBackground(SystemColor.activeCaption);
 	    btnExportPDF.setFont(new Font("Tahoma", Font.PLAIN, 13));
 	    btnExportPDF.setBounds(0, 0, 113, 23);
@@ -164,7 +164,7 @@ public class StudentManagementView extends JPanel {
 	    add(refreshPanel);  
 
 	    JLabel lblNewLabel = new JLabel("New label");
-	    lblNewLabel.setIcon(new ImageIcon("D:\\picture\\dormitory apps\\information about dormitories.png"));
+	    lblNewLabel.setIcon(new ImageIcon("src\\\\main\\\\java\\\\dormitory apps\\information about dormitories.png"));
 	    lblNewLabel.setBounds(0, 0, 790, 540);
 	    add(lblNewLabel);
 	    setVisible(true);

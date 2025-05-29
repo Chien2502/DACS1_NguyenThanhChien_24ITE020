@@ -72,7 +72,7 @@ public class RoomManagementView extends JPanel {
 	    panelAdd.setLayout(null); // Sử dụng null layout để setBounds cho từng nút
 	    panelAdd.setBounds(630, 10, 113, 23);
 	    btnAdd = new JButton("Add");
-	    btnAdd.setIcon(new ImageIcon("D:\\picture\\dormitory apps\\add icon.png"));
+	    btnAdd.setIcon(new ImageIcon("src\\\\main\\\\java\\\\dormitory apps\\add icon.png"));
 	    btnAdd.setBackground(SystemColor.activeCaption);
 	    btnAdd.setFont(new Font("Tahoma", Font.PLAIN, 15));
 	    btnAdd.setBounds(0, 0, 113, 23); // Thiết lập kích thước và vị trí cho JButton
@@ -82,7 +82,7 @@ public class RoomManagementView extends JPanel {
 	    panelEdit.setLayout(null);
 	    panelEdit.setBounds(630, 50, 113, 23); // Đặt panelEdit xuống dưới panelAdd
 	    btnEdit = new JButton("Edit");
-	    btnEdit.setIcon(new ImageIcon("D:\\picture\\dormitory apps\\edit.png"));
+	    btnEdit.setIcon(new ImageIcon("src\\\\main\\\\java\\\\dormitory apps\\edit.png"));
 	    btnEdit.setBackground(SystemColor.activeCaption);
 	    btnEdit.setFont(new Font("Tahoma", Font.PLAIN, 15));
 	    btnEdit.setBounds(0, 0, 113, 23);
@@ -92,7 +92,7 @@ public class RoomManagementView extends JPanel {
 	    panelDelete.setLayout(null);
 	    panelDelete.setBounds(630, 90, 113, 23); // Đặt panelDelete xuống dưới panelEdit
 	    btnDelete = new JButton("Delete");
-	    btnDelete.setIcon(new ImageIcon("D:\\picture\\dormitory apps\\Delete.png"));
+	    btnDelete.setIcon(new ImageIcon("src\\\\main\\\\java\\\\dormitory apps\\Delete.png"));
 	    btnDelete.setBackground(SystemColor.activeCaption);
 	    btnDelete.setFont(new Font("Tahoma", Font.PLAIN, 15));
 	    btnDelete.setBounds(0, 0, 113, 23);
@@ -102,7 +102,7 @@ public class RoomManagementView extends JPanel {
 	    panelSearch.setLayout(null);
 	    panelSearch.setBounds(630, 130, 113, 23); // Đặt panelSearch xuống dưới panelDelete
 	    searchButton = new JButton("Search");
-	    searchButton.setIcon(new ImageIcon("D:\\picture\\dormitory apps\\Search.png"));
+	    searchButton.setIcon(new ImageIcon("src\\\\main\\\\java\\\\dormitory apps\\Search.png"));
 	    searchButton.setBackground(SystemColor.activeCaption);
 	    searchButton.setFont(new Font("Tahoma", Font.PLAIN, 15));
 	    searchButton.setBounds(0, 0, 113, 23);
@@ -112,7 +112,7 @@ public class RoomManagementView extends JPanel {
 	    panelRefresh.setLayout(null);
 	    panelRefresh.setBounds(630, 170, 113, 23); // Đặt panelRefresh xuống dưới panelSearch
 	    btnRefresh = new JButton("Refresh");
-	    btnRefresh.setIcon(new ImageIcon("D:\\picture\\dormitory apps\\refresh.png"));
+	    btnRefresh.setIcon(new ImageIcon("src\\\\main\\\\java\\\\dormitory apps\\refresh.png"));
 	    btnRefresh.setBackground(SystemColor.activeCaption);
 	    btnRefresh.setFont(new Font("Tahoma", Font.PLAIN, 15));
 	    btnRefresh.setBounds(0, 0, 113, 23);
@@ -122,7 +122,7 @@ public class RoomManagementView extends JPanel {
 	    panelExport.setLayout(null);
 	    panelExport.setBounds(630, 210, 113, 23); // Đặt ngay dưới panelRefresh
 	    btnExportPDF = new JButton("Export PDF");
-	    btnExportPDF.setIcon(new ImageIcon("D:\\picture\\dormitory apps\\pdf-icon.png")); // sửa đường dẫn icon nếu cần
+	    btnExportPDF.setIcon(new ImageIcon("src\\\\main\\\\java\\\\dormitory apps\\pdf-icon.png")); // sửa đường dẫn icon nếu cần
 	    btnExportPDF.setBackground(SystemColor.activeCaption);
 	    btnExportPDF.setFont(new Font("Tahoma", Font.PLAIN, 13));
 	    btnExportPDF.setBounds(0, 0, 113, 23);
@@ -145,7 +145,7 @@ public class RoomManagementView extends JPanel {
 
 	    // Thêm hình nền
 	    lblNewLabel = new JLabel("New label");
-	    lblNewLabel.setIcon(new ImageIcon("D:\\picture\\dormitory apps\\information about dormitories.png"));
+	    lblNewLabel.setIcon(new ImageIcon("src\\\\main\\\\java\\\\dormitory apps\\information about dormitories.png"));
 	    lblNewLabel.setBounds(0, 0, 790, 540);
 	    add(lblNewLabel);
 	}

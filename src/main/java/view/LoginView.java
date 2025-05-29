@@ -4,6 +4,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.File;
+
 import javax.swing.border.BevelBorder;
 
 public class LoginView extends JFrame {
@@ -12,7 +14,7 @@ public class LoginView extends JFrame {
     private JButton loginButton, exitButton;
     private JCheckBox rememberMeCheckbox;
     public LoginView() {
-    	setIconImage(Toolkit.getDefaultToolkit().getImage("D:\\picture\\dormitory apps\\hall.png"));
+    	setIconImage(Toolkit.getDefaultToolkit().getImage("src\\main\\java\\dormitory apps\\hall.png"));
     	getContentPane().setBackground(new Color(220, 240, 245));
     	setBackground(new Color(220, 240, 245));
         setTitle("Login Dormitory Managerment System");
@@ -52,12 +54,12 @@ public class LoginView extends JFrame {
         	public void actionPerformed(ActionEvent e) {
         	}
         });
-        loginButton.setIcon(new ImageIcon("D:\\picture\\dormitory apps\\login icon.png"));
+        loginButton.setIcon(new ImageIcon("src\\main\\java\\dormitory apps\\login icon.png"));
         loginButton.setBounds(136, 129, 87, 23);
         inputPanel.add(loginButton);
         loginButton.setBackground(SystemColor.activeCaption);
         exitButton = new JButton("Exit");
-        exitButton.setIcon(new ImageIcon("D:\\picture\\dormitory apps\\logout icon.png"));
+        exitButton.setIcon(new ImageIcon("src\\main\\java\\dormitory apps\\logout icon.png"));
         exitButton.setBounds(247, 129, 87, 23);
         inputPanel.add(exitButton);
         exitButton.setBackground(SystemColor.activeCaption);
@@ -77,7 +79,7 @@ public class LoginView extends JFrame {
         exitButton.addActionListener(e -> System.exit(0));
         
         JLabel lblNewLabel = new JLabel("");
-        lblNewLabel.setIcon(new ImageIcon("D:\\picture\\dormitory apps\\backgrn login1.png"));
+        lblNewLabel.setIcon(new ImageIcon("src\\main\\java\\dormitory apps\\backgrn login1.png"));
         lblNewLabel.setBounds(0, 0, 786, 463);
         getContentPane().add(lblNewLabel);
         setVisible(true);

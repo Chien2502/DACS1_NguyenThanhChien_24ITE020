@@ -24,7 +24,7 @@ public class Dashboard extends JFrame {
     private ContractDAO contractDAO = new ContractDAO(connection);
 
     public Dashboard() throws SQLException {
-    	setIconImage(Toolkit.getDefaultToolkit().getImage("D:\\picture\\dormitory apps\\hall.png"));
+    	setIconImage(Toolkit.getDefaultToolkit().getImage("src\\\\main\\\\java\\\\dormitory apps\\hall.png"));
         setTitle("Dormitory Management System");
         setSize(800, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -42,12 +42,12 @@ public class Dashboard extends JFrame {
         menuBar.add(menuDashboard);
         
         JMenuItem dashboardMenuItem = new JMenuItem("Home page");
-        dashboardMenuItem.setIcon(new ImageIcon("D:\\picture\\dormitory apps\\dashboard.png"));
+        dashboardMenuItem.setIcon(new ImageIcon("src\\\\main\\\\java\\\\dormitory apps\\dashboard.png"));
         menuDashboard.add(dashboardMenuItem);
         dashboardMenuItem.addActionListener(e -> showView("Home page"));
         
         JMenuItem exitMenuItem = new JMenuItem("Exit");
-        exitMenuItem.setIcon(new ImageIcon("D:\\picture\\dormitory apps\\logout icon.png"));
+        exitMenuItem.setIcon(new ImageIcon("src\\\\main\\\\java\\\\dormitory apps\\logout icon.png"));
         menuDashboard.add(exitMenuItem);
         exitMenuItem.addActionListener(e -> {
             int choice = JOptionPane.showConfirmDialog(
@@ -66,11 +66,11 @@ public class Dashboard extends JFrame {
         menuManager.setBackground(SystemColor.activeCaption);
         
         JMenuItem studentMenuItem = new JMenuItem("Student Management");
-        studentMenuItem.setIcon(new ImageIcon("D:\\picture\\dormitory apps\\Student-3-icon.png"));
+        studentMenuItem.setIcon(new ImageIcon("src\\\\main\\\\java\\\\dormitory apps\\Student-3-icon.png"));
         studentMenuItem.addActionListener(e -> showView("StudentManagement"));
 
         JMenuItem contractMenuItem = new JMenuItem("Contract Management");
-        contractMenuItem.setIcon(new ImageIcon("D:\\picture\\dormitory apps\\Iconka-Business-Finance-Contract.16.png"));
+        contractMenuItem.setIcon(new ImageIcon("src\\\\main\\\\java\\\\dormitory apps\\Iconka-Business-Finance-Contract.16.png"));
         contractMenuItem.addActionListener(e -> showView("ContractManagement"));
 
         menuManager.add(studentMenuItem);
@@ -78,7 +78,7 @@ public class Dashboard extends JFrame {
         menuBar.add(menuManager);
         
         JMenuItem roomMenuItem = new JMenuItem("Room Management");
-        roomMenuItem.setIcon(new ImageIcon("D:\\picture\\dormitory apps\\Icons8-Ios7-Household-Room.16.png"));
+        roomMenuItem.setIcon(new ImageIcon("src\\\\main\\\\java\\\\dormitory apps\\Icons8-Ios7-Household-Room.16.png"));
         roomMenuItem.addActionListener(e -> showView("RoomManagement"));
         menuManager.add(roomMenuItem);
         menuBar.add(menuStatis);
@@ -93,7 +93,7 @@ public class Dashboard extends JFrame {
         mainPanel.add(dashboardview, "Home page");
         
         StudentManagementView studentView = new StudentManagementView();
-        studentView.getBtnAdd().setIcon(new ImageIcon("D:\\picture\\dormitory apps\\add icon.png"));
+        studentView.getBtnAdd().setIcon(new ImageIcon("src\\\\main\\\\java\\\\dormitory apps\\add icon.png"));
         StudentController studentCtrl = new StudentController(studentView);
         mainPanel.add(studentView, "StudentManagement");
         
